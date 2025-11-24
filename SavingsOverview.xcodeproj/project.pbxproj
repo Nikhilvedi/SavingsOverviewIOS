@@ -549,7 +549,7 @@
 /* Begin XCLocalSwiftPackageReference section */
 		43926D242ED4D50100E54A1C /* XCLocalSwiftPackageReference "SavingsOverview" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = SavingsOverview;
+			relativePath = .;
 		};
 /* End XCLocalSwiftPackageReference section */
 
