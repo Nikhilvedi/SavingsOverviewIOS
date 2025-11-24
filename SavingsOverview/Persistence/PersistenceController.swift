@@ -7,12 +7,12 @@
 
 import CoreData
 
-struct PersistenceController {
-    static let shared = PersistenceController()
+public struct PersistenceController {
+    public static let shared = PersistenceController()
     
-    let container: NSPersistentContainer
+    public let container: NSPersistentContainer
     
-    init(inMemory: Bool = false) {
+    public init(inMemory: Bool = false) {
         container = NSPersistentContainer(name: "SavingsOverview")
         
         if inMemory {
@@ -29,7 +29,7 @@ struct PersistenceController {
     }
     
     /// Create a preview controller with sample data
-    static var preview: PersistenceController = {
+    public static var preview: PersistenceController = {
         let controller = PersistenceController(inMemory: true)
         let viewContext = controller.container.viewContext
         
