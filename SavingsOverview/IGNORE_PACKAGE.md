@@ -1,0 +1,2 @@
+Nested Package.swift ignored. Use the repository root Package.swift at ../Package.swift for SwiftPM builds.
+This file prevents SPM from reading a nested manifest that could include the app entry or resources.
