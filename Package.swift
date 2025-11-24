@@ -16,11 +16,22 @@ let package = Package(
             name: "SavingsOverview",
             dependencies: [],
             path: "SavingsOverview",
-            sources: [
-                "Models",
-                "Views",
-                "Utilities",
-                "Persistence"
+            exclude: [
+                "Tests",
+                "UITests",
+                "Info.plist",
+                "Assets",
+                "Persistence/SavingsDataModel.xcdatamodeld",
+                "CODE_REVIEW_FINDINGS.md",
+                "IMPLEMENTATION_CHECKLIST.md",
+                "TESTING_GUIDE.md",
+                "PRODUCTION_READINESS.md",
+                "README.md",
+                "SETUP_GUIDE.md",
+                "IGNORE_PACKAGE.md",
+                "PROJECT_COMPLETION_SUMMARY.md",
+                "MVVM_GUIDE.md",
+                "SavingsOverviewApp.swift"
             ],
             resources: [
                 .process("Persistence/SavingsDataModel.xcdatamodeld")
