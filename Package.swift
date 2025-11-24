@@ -21,7 +21,6 @@ let package = Package(
                 "UITests",
                 "Info.plist",
                 "Assets",
-                "Persistence/SavingsDataModel.xcdatamodeld",
                 "CODE_REVIEW_FINDINGS.md",
                 "IMPLEMENTATION_CHECKLIST.md",
                 "TESTING_GUIDE.md",
