@@ -14,8 +14,22 @@ let package = Package(
         .target(
             name: "SavingsOverview",
             path: ".",
-            // exclude the Core Data model to avoid SPM duplicate resource rules
-            exclude: ["Persistence/SavingsDataModel.xcdatamodeld"]
+            exclude: [
+                "Persistence/SavingsDataModel.xcdatamodeld",
+                "Tests",
+                "UITests",
+                "Info.plist",
+                "Assets",
+                "README.md",
+                "SETUP_GUIDE.md",
+                "MVVM_GUIDE.md",
+                "IMPLEMENTATION_CHECKLIST.md",
+                "PRODUCTION_READINESS.md",
+                "CODE_REVIEW_FINDINGS.md",
+                "TESTING_GUIDE.md",
+                "IGNORE_PACKAGE.md",
+                "PROJECT_COMPLETION_SUMMARY.md"
+            ]
         ),
         .testTarget(
             name: "SavingsOverviewTests",
