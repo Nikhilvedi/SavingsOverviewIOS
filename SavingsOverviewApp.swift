@@ -1,4 +1,5 @@
 import SwiftUI
+import SavingsOverview
 
 @main
 struct SavingsOverviewApp: App {

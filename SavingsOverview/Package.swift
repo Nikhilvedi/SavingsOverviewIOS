@@ -13,14 +13,14 @@ let package = Package(
         // Keep SPM target simple and do NOT include the .xcdatamodeld resource
         .target(
             name: "SavingsOverview",
-            path: "SavingsOverview",
+            path: ".",
             // exclude the Core Data model to avoid SPM duplicate resource rules
             exclude: ["Persistence/SavingsDataModel.xcdatamodeld"]
         ),
         .testTarget(
             name: "SavingsOverviewTests",
             dependencies: ["SavingsOverview"],
-            path: "SavingsOverview/Tests"
+            path: "Tests"
         )
     ]
 )
