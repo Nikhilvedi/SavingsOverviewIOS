@@ -13,7 +13,7 @@ public struct PersistenceController {
     public let container: NSPersistentContainer
     
     public init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "SavingsOverview")
+        container = NSPersistentContainer(name: "SavingsDataModel")
         
         if inMemory {
             container.persistentStoreDescriptions.first?.url = URL(fileURLWithPath: "/dev/null")

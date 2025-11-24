@@ -10,12 +10,10 @@ let package = Package(
         .library(name: "SavingsOverview", targets: ["SavingsOverview"])
     ],
     targets: [
-        // Keep SPM target simple and do NOT include the .xcdatamodeld resource
         .target(
             name: "SavingsOverview",
             path: ".",
             exclude: [
-                "Persistence/SavingsDataModel.xcdatamodeld",
                 "Tests",
                 "UITests",
                 "Info.plist",
@@ -29,6 +27,9 @@ let package = Package(
                 "TESTING_GUIDE.md",
                 "IGNORE_PACKAGE.md",
                 "PROJECT_COMPLETION_SUMMARY.md"
+            ],
+            resources: [
+                .process("Persistence/SavingsDataModel.xcdatamodeld")
             ]
         ),
         .testTarget(

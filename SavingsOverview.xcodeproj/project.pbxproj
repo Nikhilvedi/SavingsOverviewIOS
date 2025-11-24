@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43926CED2ED4D2BD00E54A1C /* SavingsOverview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43926CEB2ED4D2BD00E54A1C /* SavingsOverview.xcdatamodeld */; };
 		43926D222ED4D40100E54A1C /* SavingsOverviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43926D212ED4D40000E54A1C /* SavingsOverviewApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		43926CE02ED4D2BA00E54A1C /* SavingsOverview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavingsOverview.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		43926CEC2ED4D2BD00E54A1C /* SavingsOverview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavingsOverview.xcdatamodel; sourceTree = "<group>"; };
 		43926CF22ED4D2BD00E54A1C /* SavingsOverviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavingsOverviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43926CFC2ED4D2BD00E54A1C /* SavingsOverviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavingsOverviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43926D202ED4D32D00E54A1C /* SavingsOverview */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SavingsOverview; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				43926D202ED4D32D00E54A1C /* SavingsOverview */,
 				43926D212ED4D40000E54A1C /* SavingsOverviewApp.swift */,
 				43926CE12ED4D2BA00E54A1C /* Products */,
-				43926CEB2ED4D2BD00E54A1C /* SavingsOverview.xcdatamodeld */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43926CED2ED4D2BD00E54A1C /* SavingsOverview.xcdatamodeld in Sources */,
 				43926D222ED4D40100E54A1C /* SavingsOverviewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,19 +545,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		43926CEB2ED4D2BD00E54A1C /* SavingsOverview.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				43926CEC2ED4D2BD00E54A1C /* SavingsOverview.xcdatamodel */,
-			);
-			currentVersion = 43926CEC2ED4D2BD00E54A1C /* SavingsOverview.xcdatamodel */;
-			path = SavingsOverview.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 
 /* Begin XCLocalSwiftPackageReference section */
 		43926D242ED4D50100E54A1C /* XCLocalSwiftPackageReference "SavingsOverview" */ = {
